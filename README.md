@@ -29,3 +29,14 @@ Este projeto é uma API em Python para realizar conversões de moedas em tempo r
 ```bash
 git clone https://github.com/ToledoPD/conversor-moedas.git
 cd conversor-moedas
+
+
+2. Crie um ambiente virtual:
+python -m venv venv
+venv\Scripts\activate  # No Windows
+# ou
+source venv/bin/activate  # No Linux/macOS
+
+
+3. Instale as dependencias:
+pip install -r requirements.txt
